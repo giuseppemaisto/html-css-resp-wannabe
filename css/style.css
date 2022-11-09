@@ -131,6 +131,14 @@ img {
     .container{
         width: 100%;
     }
+    .row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .steps .col{
+        width: calc(100% / 2);
+        margin-bottom: 40px;
+    }
     
 }
 
